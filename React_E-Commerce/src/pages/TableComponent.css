@@ -1,0 +1,141 @@
+/* TableComponent.css */
+
+/* Styles for TableComponent */
+.table-container {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Styles for buttons in TableComponent */
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.button-update {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.button-delete {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+}
+/* End of styles for TableComponent */
+
+/* Styles for ProductForm */
+.product-form-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 400px;
+}
+
+.product-form-container h2 {
+  margin-bottom: 20px;
+}
+
+.product-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-form-container label {
+  margin-bottom: 8px;
+}
+
+.product-form-container input,
+.product-form-container textarea,
+.product-form-container select {
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.product-form-container button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product-form-container button:hover {
+  background-color: #0056b3;
+}
+/* End of styles for ProductForm */
+
+/* Styles for ProductForm centering */
+.product-form-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+/* End of styles for ProductForm centering */
+
+/* Styles for ProductForm description alignment */
+.product-form-container textarea {
+  height: 100px;
+}
+/* End of styles for ProductForm description alignment */
+
+/* Styles for ProductForm submit button centering */
+.submit-button-container {
+  text-align: center;
+}
+/* End of styles for ProductForm submit button centering */
+.centered-h1 {
+  text-align: center;
+  margin-bottom: 20px; /* Ajustez selon vos besoins */
+}
+.centered-h2 {
+  text-align: center;
+  margin-bottom: 20px; /* Ajustez selon vos besoins */
+}
+
+/* Styles for ListAdmins */
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
